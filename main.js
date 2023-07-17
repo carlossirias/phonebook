@@ -111,12 +111,19 @@ class HashTable
 
 var hash = new HashTable()
 
-//Upload .txt from data to our HashTable
+//----Upload .txt from data to our HashTable
 hash.upload()
 
-//Insert allow us to inser data in the HashTable
+//---Insert allow us to inser data in the HashTable
 hash.insert('Belen', 131213, 'carlos@gmail.com')
 hash.insert('Olman', 131213, 'carlos@gmail.com')
 
+//---Print by index
+//hash.getAllByIndex(1)
 
+//---Print all registers by letter or word
+//hash.getAllByLetter('Carlos')
+//hash.getAllByLetter('H')
+
+//---Print All
 hash.printAll()
